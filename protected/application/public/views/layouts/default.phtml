@@ -142,9 +142,11 @@
 			</div>
 			<?php endif ?>
 			<div class="titlewrapper">
-				<h1 class="title">
-				<?= $this->title ?>
-				</h1>
+				<a href="<?= $this->base()->serviceUrl() ?>">
+					<h1 class="title">
+					<?= $this->title ?>
+					</h1>
+				</a>
 			</div>
 			<div class="descriptionwrapper">
 				<div class="description"><?= $this->subtitle ?></div>
